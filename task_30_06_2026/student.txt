@@ -1,0 +1,3 @@
+Name: Alice, Age: 20, Course: AI
+Name: Bob, Age: 21, Course: Data Science
+Name: Charlie, Age: 19, Course: Machine Learning
