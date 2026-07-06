@@ -1,0 +1,94 @@
+# Statistics and Probability Analysis using Python
+
+## Overview
+This project demonstrates basic and advanced **Statistics, Probability, Data Visualization, Sampling, and Business Analytics** concepts using Python libraries such as **Pandas, Matplotlib, NumPy, SciPy, and Scikit-learn**.
+
+## Dataset Information
+Dataset: **employee_ai_statistics_dataset.csv**
+
+The dataset contains employee-related information including:
+
+- Employee_ID
+- Department
+- Gender
+- Work_Mode
+- Age
+- Experience
+- Salary
+- Performance_Rating
+- Projects_Completed
+- Training_Hours
+- Monthly_Sales
+- Customer_Rating
+- Website_Visits
+- Monthly_Watch_Time
+- Fraud_Score
+- Left_Company
+- Email_Type
+- Sentiment
+- Converted
+
+## Tasks Performed
+
+### Data Understanding
+- Loaded and explored the dataset.
+- Identified qualitative and quantitative variables.
+- Analyzed frequency distributions for departments, gender, and sentiment.
+
+### Descriptive Statistics
+- Calculated mean, median, mode, range, variance, and standard deviation.
+- Examined salary, sales, and customer ratings.
+
+### Data Visualization
+- Bar Chart (Department Distribution)
+- Histogram (Age Distribution)
+- Pie Chart (Employee Attrition)
+- Scatter Plots (Experience vs Salary, Sales vs Experience)
+- Box Plot (Salary Analysis)
+- Line Chart (Monthly Watch Time)
+
+### Correlation Analysis
+- Salary vs Experience
+- Salary vs Monthly Sales
+- Training Hours vs Performance Rating
+- Correlation Matrix
+
+### Sampling Techniques
+- Random Sampling
+- Stratified Sampling
+- Cluster Sampling
+- Systematic Sampling
+
+### Probability & Business Analytics
+- Probability of employee attrition.
+- Probability of belonging to AI department.
+- Conditional probability analysis.
+- Baseline and target conversion rates.
+- T-Test for work mode comparison.
+
+### Advanced Statistical Analysis
+- Confidence Intervals
+- Hypothesis Testing
+- Outlier Detection using Z-Score
+- Chi-Square Test
+- ANOVA Test
+- Linear Regression
+- Cohen’s d Effect Size
+- Bootstrap Confidence Intervals
+- IQR-Based Outlier Analysis
+- Bayes Theorem Application
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- SciPy
+- Scikit-learn
+
+## Key Insights
+- Employee salary is influenced by experience.
+- Statistical tests help compare employee groups.
+- Sampling techniques provide representative subsets of data.
+- Correlation and regression reveal business relationships.
+- Probability and hypothesis testing support data-driven decisions.
