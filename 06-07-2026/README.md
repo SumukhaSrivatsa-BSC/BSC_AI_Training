@@ -1,7 +1,7 @@
-# Web Scraping and Data Analysis Project
+# Data Extraction, Web Scraping, Data Analysis & Machine Learning Project
 
 ## Overview
-This project demonstrates web scraping, data analysis, and visualization using Python. Data is collected from the Fake Jobs website and Books to Scrape website using Requests and BeautifulSoup, then analyzed using Pandas and Matplotlib.
+This project showcases multiple Python concepts including API data extraction, web scraping, data analysis, data visualization, and machine learning. Data is collected from public APIs and websites, processed using Pandas, visualized using Matplotlib, and analyzed to generate meaningful insights.
 
 ## Technologies Used
 - Python
@@ -10,38 +10,55 @@ This project demonstrates web scraping, data analysis, and visualization using P
 - BeautifulSoup
 - Matplotlib
 - Scikit-Learn
+- OpenPyXL
 
-## Features
-### Job Scraping
+## Project Modules
+
+### 1. Data Extraction Through APIs
+- Fetch data from GitHub API
+- Fetch user data from JSONPlaceholder API
+- Convert JSON responses into DataFrames
+- Save extracted data to CSV and Excel files
+- Handle API authentication and rate limits
+- Implement error handling and retry mechanisms
+
+### 2. Web Scraping
+#### Fake Jobs Website
 - Extract Job Title
 - Company Name
 - Location
 - Apply Link
-- Store data in CSV and Excel files
+- Store results in structured datasets
 
-### Books Scraping
+#### Books To Scrape Website
 - Extract Book Name
 - Price
 - Rating
 - Availability
 
-### Data Analysis
-- Check dataset shape
-- Identify missing values
-- Remove duplicates
-- Generate summary statistics
-- Analyze top hiring companies
-- Analyze top hiring locations
+### 3. Data Analysis
+- Dataset shape analysis
+- Missing value detection
+- Duplicate record checking
+- Statistical summaries
+- Company-wise job analysis
+- Location-wise job analysis
 
-### Data Visualization
+### 4. Data Visualization
 - Top Hiring Companies Chart
 - Top Hiring Locations Chart
+- Top GitHub Repositories by Stars
 
-### Machine Learning
-- Linear Regression model to predict salary based on years of experience
-- Logging implemented for tracking application execution
+### 5. Machine Learning
+- Linear Regression using Scikit-Learn
+- Salary prediction based on years of experience
+- Application logging using Python Logging module
 
 ## Files Generated
+- github_repos.csv
+- github_repos.xlsx
+- users_data.csv
+- users_data.xlsx
 - jobs.csv
 - jobs_clean.csv
 - jobs_clean.xlsx
@@ -60,21 +77,30 @@ pip install pandas requests beautifulsoup4 matplotlib scikit-learn openpyxl
 python project.py
 ```
 
-## Sample Output
-- Job data scraped successfully
-- CSV and Excel files generated
-- Visualization charts saved
-- Salary prediction generated using Linear Regression
+## Features
+- API Data Extraction
+- JSON Data Processing
+- Web Scraping with BeautifulSoup
+- Data Cleaning and Analysis
+- Data Visualization
+- CSV and Excel Export
+- Machine Learning Predictions
+- Logging and Error Handling
+- GitHub API Authentication
 
 ## Learning Outcomes
-- Web Scraping with BeautifulSoup
-- Data Cleaning and Analysis using Pandas
-- Data Visualization with Matplotlib
-- Machine Learning using Scikit-Learn
-- Logging in Python
+- Working with REST APIs
+- JSON Data Handling
+- Web Scraping Techniques
+- Exploratory Data Analysis (EDA)
+- Data Visualization using Matplotlib
+- Machine Learning with Linear Regression
+- File Handling (CSV & Excel)
+- Logging and Monitoring Applications
+- Error Handling and Retry Logic
 
 ## Author
-Sumukha Srivatsa
+**Sumukha Srivatsa**
 
 ## License
-This project is for educational purposes only.
+This project is developed for educational and learning purposes.
