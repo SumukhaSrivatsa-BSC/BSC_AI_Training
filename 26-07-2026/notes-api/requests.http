@@ -1,0 +1,11 @@
+### Health check
+GET http://127.0.0.1:8000/health
+
+### Create a note
+POST http://127.0.0.1:8000/notes
+Content-Type: application/json
+
+{ "id": 1, "title": "First note", "body": "Hello" }
+
+### Fetch it back
+GET http://127.0.0.1:8000/notes/1
